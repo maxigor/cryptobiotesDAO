@@ -8,8 +8,8 @@ const App = () => {
   console.log("Address", address);
 
  // Initialize our editionDrop contract
-  const editionDrop = useEditionDrop("0xB59FCf4914A79EB34DeB9Bd8eaCEB43aD717661B");
-  const token = useToken("0xbf07fF9193dE344790799EA64F80e13800eD87CD");
+  const editionDrop = useEditionDrop("0xb55c0F51Df13fefAC6FC5A8AF3F2D3E76731870A");
+  const token = useToken("0xeE709d16772a09d0870a57cFc300f51072281398");
 
   // State variable for us to know if user has our NFT.
   const [hasClaimedNFT, setHasClaimedNFT] = useState(false);
