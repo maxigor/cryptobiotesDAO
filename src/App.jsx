@@ -161,7 +161,7 @@ const App = () => {
 
   return (
     <div className="landing">
-      <h1>cryptobiteDAO</h1>
+      <h1>cryptobiotesDAO</h1>
       <button
         disabled={isClaiming}
         onClick={mintNft}

@@ -7,7 +7,7 @@ import sdk from "./1-initialize-sdk.js";
       name: "My amazing DAO",
 
       // This is the location of our governance token, our ERC-20 contract!
-      voting_token_address: "0xeE709d16772a09d0870a57cFc300f51072281398",
+      voting_token_address: "0xbf07fF9193dE344790799EA64F80e13800eD87CD",
 
       // These parameters are specified in number of blocks. 
       // Assuming block time of around 13.14 seconds (for Ethereum)
@@ -28,6 +28,7 @@ import sdk from "./1-initialize-sdk.js";
       // I set it to 0. Meaning no tokens are required for a user to be allowed to
       // create a proposal.
       proposal_token_threshold: 0,
+      
     });
 
     console.log(
